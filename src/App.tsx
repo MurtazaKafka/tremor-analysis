@@ -253,7 +253,6 @@ function App() {
     setAverageAmplitude(0);
     
     const testData: TremorData[] = [];
-    const startTime = Date.now();
     
     // Simulate tremor data with a dominant frequency around 5 Hz
     for (let i = 0; i < 100; i++) {
