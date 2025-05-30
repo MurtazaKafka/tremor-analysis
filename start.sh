@@ -1,6 +1,3 @@
 #!/bin/bash
-# Build the React app
-npm run build
-
-# Start the production server
-npx serve -s build -l $PORT
+# Start the production server (build already done by Render)
+yarn serve
